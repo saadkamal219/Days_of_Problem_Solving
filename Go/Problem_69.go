@@ -31,8 +31,9 @@ func mySqrt(x int) int {
 	}
 }
 
-func main() {
-	value := 101
+func execute_problem69(value int) int {
 
 	fmt.Printf("Root: %d\n", mySqrt(value))
+
+	return 0
 }
